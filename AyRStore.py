@@ -27,7 +27,7 @@ import os
 #print("✅ Se agregaron correctamente los nuevos datos del Excel al CSV.")
 
 ########################################## codigo de automatizacion, sacar si no funciona
-archivo = "AyR_Ventas.csv"
+archivo = "C:/Users/USUARIO/OneDrive/AyR Store Data/Project/AyR_Ventas.csv"
 data = pd.read_csv(archivo, encoding='latin1', sep=';')
 data.columns = data.columns.str.strip().str.lower()
 
